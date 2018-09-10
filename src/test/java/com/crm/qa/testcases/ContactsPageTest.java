@@ -19,7 +19,9 @@ public class ContactsPageTest extends TestBase{
 	TestUtil testUtil;
 	ContactsPage contactsPage;
 	String sheetName = "contacts";
-	
+	/*
+	 * super constructor
+	 */
 	public ContactsPageTest(){
 		super();
 	}
