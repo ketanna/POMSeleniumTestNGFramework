@@ -2,48 +2,48 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="FREE CRM Application Test Automation Test Suite" duration-ms="97381" started-at="2018-09-11T07:49:14Z" finished-at="2018-09-11T07:50:52Z">
+  <suite name="Default suite" duration-ms="39876" started-at="2018-09-11T13:34:18Z" finished-at="2018-09-11T13:34:58Z">
     <groups>
     </groups>
-    <test name="Free CRM App Test Cases" duration-ms="97381" started-at="2018-09-11T07:49:14Z" finished-at="2018-09-11T07:50:52Z">
+    <test name="Default test" duration-ms="39876" started-at="2018-09-11T13:34:18Z" finished-at="2018-09-11T13:34:58Z">
       <class name="com.crm.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4f7d0008]" name="setUp" is-config="true" duration-ms="18122" started-at="2018-09-11T13:19:14Z" finished-at="2018-09-11T13:19:33Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@598067a5]" name="setUp" is-config="true" duration-ms="10641" started-at="2018-09-11T13:34:18Z" finished-at="2018-09-11T13:34:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@4f7d0008]" name="loginPageTitleTest" duration-ms="104" started-at="2018-09-11T13:19:33Z" finished-at="2018-09-11T13:19:33Z">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@598067a5]" name="loginPageTitleTest" duration-ms="18" started-at="2018-09-11T13:34:29Z" finished-at="2018-09-11T13:34:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4f7d0008]" name="tearDown" is-config="true" duration-ms="1593" started-at="2018-09-11T13:19:54Z" finished-at="2018-09-11T13:19:56Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@598067a5]" name="tearDown" is-config="true" duration-ms="810" started-at="2018-09-11T13:34:29Z" finished-at="2018-09-11T13:34:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4f7d0008]" name="setUp" is-config="true" duration-ms="14473" started-at="2018-09-11T13:19:56Z" finished-at="2018-09-11T13:20:10Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@598067a5]" name="setUp" is-config="true" duration-ms="9937" started-at="2018-09-11T13:34:30Z" finished-at="2018-09-11T13:34:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageLogoTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@4f7d0008]" name="loginPageLogoTest" duration-ms="123" started-at="2018-09-11T13:20:10Z" finished-at="2018-09-11T13:20:10Z">
+        <test-method status="PASS" signature="loginPageLogoTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@598067a5]" name="loginPageLogoTest" duration-ms="57" started-at="2018-09-11T13:34:40Z" finished-at="2018-09-11T13:34:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageLogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4f7d0008]" name="tearDown" is-config="true" duration-ms="1315" started-at="2018-09-11T13:20:17Z" finished-at="2018-09-11T13:20:18Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@598067a5]" name="tearDown" is-config="true" duration-ms="824" started-at="2018-09-11T13:34:40Z" finished-at="2018-09-11T13:34:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4f7d0008]" name="setUp" is-config="true" duration-ms="13699" started-at="2018-09-11T13:20:18Z" finished-at="2018-09-11T13:20:32Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@598067a5]" name="setUp" is-config="true" duration-ms="10542" started-at="2018-09-11T13:34:41Z" finished-at="2018-09-11T13:34:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@4f7d0008]" name="loginTest" duration-ms="16898" started-at="2018-09-11T13:20:32Z" finished-at="2018-09-11T13:20:49Z">
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@598067a5]" name="loginTest" duration-ms="6125" started-at="2018-09-11T13:34:51Z" finished-at="2018-09-11T13:34:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4f7d0008]" name="tearDown" is-config="true" duration-ms="923" started-at="2018-09-11T13:20:51Z" finished-at="2018-09-11T13:20:52Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@598067a5]" name="tearDown" is-config="true" duration-ms="883" started-at="2018-09-11T13:34:57Z" finished-at="2018-09-11T13:34:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.crm.qa.testcases.LoginPageTest -->
-    </test> <!-- Free CRM App Test Cases -->
-  </suite> <!-- FREE CRM Application Test Automation Test Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
