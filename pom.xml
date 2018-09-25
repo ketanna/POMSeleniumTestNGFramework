@@ -110,7 +110,7 @@
 		<url>scm:git:git@github.com:ketanna/git-demo.git</url>
 		<developerConnection>scm:git:git@github.com:ketanna/git-demo.git</developerConnection>
   	  <tag>FreeCRMTest-0.0.1</tag>
-  	</scm> -->
+  	</scm> 
 	
 	<build>
 		<plugins>
@@ -120,7 +120,7 @@
         		<version>2.5.3</version>
       		</plugin>
    	 	</plugins>
-  	</build>
+  	</build> -->
   
   
 </project>

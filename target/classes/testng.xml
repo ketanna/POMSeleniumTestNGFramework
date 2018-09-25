@@ -7,16 +7,23 @@
 		<listener class-name="com.crm.qa.ExtentReportListener.ExtentReporterNG"/>
 	</listeners>
   	
-  	<test name="Free CRM App Test Cases">
+  	<test name="Free CRM App Login Page Test Cases">
     	<classes>
-     	 	<!-- <class name="com.crm.qa.testcases.LoginPageTest"/> -->
-     		<class name="com.crm.qa.testcases.HomePageTest"/>
-     	 	<!-- <class name="com.crm.qa.testcases.ContactsPageTest"/> -->
+     	 	<class name="com.crm.qa.testcases.LoginPageTest"/>
     	</classes>
-  	</test> <!-- Test -->
-  	
-  	
-  	
+    </test> <!-- Test -->
+    
+    <test name="Free CRM App Home Page Test Cases">
+    	<classes>
+     		<class name="com.crm.qa.testcases.HomePageTest"/>
+    	</classes>
+    </test> <!-- Test -->
+   	
+   	<test name="Free CRM App Contacts Page Test Cases">
+    	<classes>
+     	 	<class name="com.crm.qa.testcases.ContactsPageTest"/>
+    	</classes>
+  	</test> <!-- Test -->	
   	
   	
 </suite> <!-- Suite -->
