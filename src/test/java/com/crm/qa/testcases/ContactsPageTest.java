@@ -38,21 +38,21 @@ public class ContactsPageTest extends TestBase{
 		contactsPage = homePage.verifyContactsLink();
 	}
 	
-	//@Test(priority=1)
+	@Test(priority=1)
 	public void verifyContactslabelTest(){
 		contactsPage.verifyContactslabel();
 		Assert.assertTrue(contactsPage.verifyContactslabel(), "Contacts label is missing on the page");
 	}
 	
-	//@Test(priority=2)
+	@Test(priority=2)
 	public void selectSingleContactsByNameTest() throws InterruptedException{
-		contactsPage.selectContactsByName("Amrita Bastawade");	
+		contactsPage.selectContactsByName("Akshay Kumar");	
 	}
 	
-	//@Test(priority=3)
+	@Test(priority=3)
 	public void selectMultipleContactsByNameTest() throws InterruptedException{
-		contactsPage.selectContactsByName("Amita Mani");	
-		contactsPage.selectContactsByName("Amit Thakur");	
+		contactsPage.selectContactsByName("Aman sang");	
+		contactsPage.selectContactsByName("Agnimitra Paul");	
 	}
 	
 	@DataProvider

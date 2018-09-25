@@ -36,7 +36,7 @@ public class LoginPageTest extends TestBase{
 		Assert.assertTrue(logo);
 	}
 	
-	//@Test(priority=3)
+	@Test(priority=3)
 	public void loginTest() throws InterruptedException {
 		homePage = loginPage.loginin(prop.getProperty("Username"), prop.getProperty("Password"));
 	}
