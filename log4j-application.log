@@ -1,0 +1,170 @@
+2018-09-26 20:08:32,632  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:08:32,733  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:08:32,801  INFO [main] TestBase:89 - $$$$$$$$$$$$$$$$$$$$$ S T A R T - T E S T $$$$$$$$$$$$$$$$$$$$$$$$$
+ 2018-09-26 20:08:38,607  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:08:38,608  INFO [main] TestBase:69 - Intialized Webdriver or Browser
+ 2018-09-26 20:08:40,042  INFO [main] TestBase:72 - Maximized Browser Window
+ 2018-09-26 20:08:40,326  INFO [main] TestBase:75 - Deleted All Browser Cookies
+ 2018-09-26 20:08:40,393  INFO [main] TestBase:78 - Page load timeout applied on driver for 30Sec
+ 2018-09-26 20:08:40,398  INFO [main] TestBase:81 - Implicit wait applied on driver for 20Sec
+ 2018-09-26 20:08:47,533  INFO [main] TestBase:84 - Load Web URL-> 'https://www.freecrm.com/' Successfull
+ 2018-09-26 20:08:47,537  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:08:47,604  INFO [main] TestBase:26 - Landed on to Login page verified
+ 2018-09-26 20:08:47,625  INFO [main] TestBase:33 - Verified Login Page Title
+ 2018-09-26 20:08:56,858  INFO [main] TestBase:22 - Passed Test Screenshots taken sucessfully
+ 2018-09-26 20:08:58,591  INFO [main] TestBase:52 - Close driver sucessfull
+ 2018-09-26 20:08:58,591  INFO [main] TestBase:93 - $$$$$$$$$$$$$$$$$$$$$ E N D - T E S T $$$$$$$$$$$$$$$$$$$$$$$$$
+ 2018-09-26 20:08:58,600  INFO [main] TestBase:89 - $$$$$$$$$$$$$$$$$$$$$ S T A R T - T E S T $$$$$$$$$$$$$$$$$$$$$$$$$
+ 2018-09-26 20:09:01,087  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:09:01,087  INFO [main] TestBase:69 - Intialized Webdriver or Browser
+ 2018-09-26 20:09:02,207  INFO [main] TestBase:72 - Maximized Browser Window
+ 2018-09-26 20:09:03,674  INFO [main] TestBase:75 - Deleted All Browser Cookies
+ 2018-09-26 20:09:03,678  INFO [main] TestBase:78 - Page load timeout applied on driver for 30Sec
+ 2018-09-26 20:09:03,682  INFO [main] TestBase:81 - Implicit wait applied on driver for 20Sec
+ 2018-09-26 20:09:11,437  INFO [main] TestBase:84 - Load Web URL-> 'https://www.freecrm.com/' Successfull
+ 2018-09-26 20:09:11,437  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:09:11,438  INFO [main] TestBase:26 - Landed on to Login page verified
+ 2018-09-26 20:09:11,523  INFO [main] TestBase:40 - Verified Login page Logo
+ 2018-09-26 20:09:18,405  INFO [main] TestBase:22 - Passed Test Screenshots taken sucessfully
+ 2018-09-26 20:09:19,341  INFO [main] TestBase:52 - Close driver sucessfull
+ 2018-09-26 20:09:19,342  INFO [main] TestBase:93 - $$$$$$$$$$$$$$$$$$$$$ E N D - T E S T $$$$$$$$$$$$$$$$$$$$$$$$$
+ 2018-09-26 20:09:19,344  INFO [main] TestBase:89 - $$$$$$$$$$$$$$$$$$$$$ S T A R T - T E S T $$$$$$$$$$$$$$$$$$$$$$$$$
+ 2018-09-26 20:09:21,735  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:09:21,736  INFO [main] TestBase:69 - Intialized Webdriver or Browser
+ 2018-09-26 20:09:22,853  INFO [main] TestBase:72 - Maximized Browser Window
+ 2018-09-26 20:09:22,937  INFO [main] TestBase:75 - Deleted All Browser Cookies
+ 2018-09-26 20:09:22,940  INFO [main] TestBase:78 - Page load timeout applied on driver for 30Sec
+ 2018-09-26 20:09:22,943  INFO [main] TestBase:81 - Implicit wait applied on driver for 20Sec
+ 2018-09-26 20:09:27,742  INFO [main] TestBase:84 - Load Web URL-> 'https://www.freecrm.com/' Successfull
+ 2018-09-26 20:09:27,743  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:09:27,744  INFO [main] TestBase:26 - Landed on to Login page verified
+ 2018-09-26 20:09:37,503  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:09:37,505  INFO [main] TestBase:46 - Verified Login has been sucessfull
+ 2018-09-26 20:09:39,190  INFO [main] TestBase:22 - Passed Test Screenshots taken sucessfully
+ 2018-09-26 20:09:40,049  INFO [main] TestBase:52 - Close driver sucessfull
+ 2018-09-26 20:09:40,050  INFO [main] TestBase:93 - $$$$$$$$$$$$$$$$$$$$$ E N D - T E S T $$$$$$$$$$$$$$$$$$$$$$$$$
+ 2018-09-26 20:09:41,762 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+ 2018-09-26 20:09:41,763 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+ 2018-09-26 20:09:41,765 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2018-09-26 20:09:41,767 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2018-09-26 20:09:41,767 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/bbdnet10082/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2018-09-26 20:09:42,239 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+ 2018-09-26 20:09:42,240 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+ 2018-09-26 20:09:42,241 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2018-09-26 20:09:42,242 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2018-09-26 20:09:42,243 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/bbdnet10082/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2018-09-26 20:14:26,514  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:14:26,649  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:14:26,725  INFO [main] TestBase:89 - $$$$$$$$$$$$$$$$$$$$$ S T A R T - T E S T $$$$$$$$$$$$$$$$$$$$$$$$$
+ 2018-09-26 20:14:29,876  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:14:29,876  INFO [main] TestBase:69 - Intialized Webdriver or Browser
+ 2018-09-26 20:14:31,005  INFO [main] TestBase:72 - Maximized Browser Window
+ 2018-09-26 20:14:31,041  INFO [main] TestBase:75 - Deleted All Browser Cookies
+ 2018-09-26 20:14:31,049  INFO [main] TestBase:78 - Page load timeout applied on driver for 30Sec
+ 2018-09-26 20:14:31,052  INFO [main] TestBase:81 - Implicit wait applied on driver for 20Sec
+ 2018-09-26 20:14:37,714  INFO [main] TestBase:84 - Load Web URL-> 'https://www.freecrm.com/' Successful
+ 2018-09-26 20:14:37,718  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:14:37,754  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:14:37,757  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:14:37,759  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:14:37,761  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:14:45,527  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:14:45,534  INFO [main] TestBase:43 - Login sucessful
+ 2018-09-26 20:14:45,547  INFO [main] TestBase:50 - Verified Home Page Title
+ 2018-09-26 20:14:47,379  INFO [main] TestBase:22 - Passed Test Screenshots taken sucessfully
+ 2018-09-26 20:14:48,239  INFO [main] TestBase:93 - Close driver sucessful
+ 2018-09-26 20:14:48,240  INFO [main] TestBase:93 - $$$$$$$$$$$$$$$$$$$$$ E N D - T E S T $$$$$$$$$$$$$$$$$$$$$$$$$
+ 2018-09-26 20:14:48,246  INFO [main] TestBase:89 - $$$$$$$$$$$$$$$$$$$$$ S T A R T - T E S T $$$$$$$$$$$$$$$$$$$$$$$$$
+ 2018-09-26 20:14:50,682  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:14:50,682  INFO [main] TestBase:69 - Intialized Webdriver or Browser
+ 2018-09-26 20:14:51,804  INFO [main] TestBase:72 - Maximized Browser Window
+ 2018-09-26 20:14:51,830  INFO [main] TestBase:75 - Deleted All Browser Cookies
+ 2018-09-26 20:14:51,834  INFO [main] TestBase:78 - Page load timeout applied on driver for 30Sec
+ 2018-09-26 20:14:51,837  INFO [main] TestBase:81 - Implicit wait applied on driver for 20Sec
+ 2018-09-26 20:14:57,719  INFO [main] TestBase:84 - Load Web URL-> 'https://www.freecrm.com/' Successful
+ 2018-09-26 20:14:57,720  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:14:57,722  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:14:57,723  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:14:57,724  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:14:57,725  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:15:06,226  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:15:06,228  INFO [main] TestBase:43 - Login sucessful
+ 2018-09-26 20:15:06,295  INFO [main] TestBase:51 - Switched to mainpanel frame
+ 2018-09-26 20:15:06,324  INFO [main] TestBase:65 - Verified Home Page Logo
+ 2018-09-26 20:15:08,006  INFO [main] TestBase:22 - Passed Test Screenshots taken sucessfully
+ 2018-09-26 20:15:08,866  INFO [main] TestBase:93 - Close driver sucessful
+ 2018-09-26 20:15:08,867  INFO [main] TestBase:93 - $$$$$$$$$$$$$$$$$$$$$ E N D - T E S T $$$$$$$$$$$$$$$$$$$$$$$$$
+ 2018-09-26 20:15:08,868  INFO [main] TestBase:89 - $$$$$$$$$$$$$$$$$$$$$ S T A R T - T E S T $$$$$$$$$$$$$$$$$$$$$$$$$
+ 2018-09-26 20:15:11,175  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:15:11,175  INFO [main] TestBase:69 - Intialized Webdriver or Browser
+ 2018-09-26 20:15:12,292  INFO [main] TestBase:72 - Maximized Browser Window
+ 2018-09-26 20:15:12,736  INFO [main] TestBase:75 - Deleted All Browser Cookies
+ 2018-09-26 20:15:12,742  INFO [main] TestBase:78 - Page load timeout applied on driver for 30Sec
+ 2018-09-26 20:15:12,747  INFO [main] TestBase:81 - Implicit wait applied on driver for 20Sec
+ 2018-09-26 20:15:19,808  INFO [main] TestBase:84 - Load Web URL-> 'https://www.freecrm.com/' Successful
+ 2018-09-26 20:15:19,811  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:15:19,812  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:15:19,812  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:15:19,812  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:15:19,813  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:15:31,970  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:15:31,971  INFO [main] TestBase:43 - Login sucessful
+ 2018-09-26 20:15:32,022  INFO [main] TestBase:51 - Switched to mainpanel frame
+ 2018-09-26 20:15:34,616  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:15:34,616  INFO [main] TestBase:72 - Verifed Deals Link on Home page
+ 2018-09-26 20:15:36,963  INFO [main] TestBase:22 - Passed Test Screenshots taken sucessfully
+ 2018-09-26 20:15:37,804  INFO [main] TestBase:93 - Close driver sucessful
+ 2018-09-26 20:15:37,805  INFO [main] TestBase:93 - $$$$$$$$$$$$$$$$$$$$$ E N D - T E S T $$$$$$$$$$$$$$$$$$$$$$$$$
+ 2018-09-26 20:15:37,806  INFO [main] TestBase:89 - $$$$$$$$$$$$$$$$$$$$$ S T A R T - T E S T $$$$$$$$$$$$$$$$$$$$$$$$$
+ 2018-09-26 20:15:40,111  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:15:40,112  INFO [main] TestBase:69 - Intialized Webdriver or Browser
+ 2018-09-26 20:15:41,228  INFO [main] TestBase:72 - Maximized Browser Window
+ 2018-09-26 20:15:41,255  INFO [main] TestBase:75 - Deleted All Browser Cookies
+ 2018-09-26 20:15:41,258  INFO [main] TestBase:78 - Page load timeout applied on driver for 30Sec
+ 2018-09-26 20:15:41,261  INFO [main] TestBase:81 - Implicit wait applied on driver for 20Sec
+ 2018-09-26 20:15:47,213  INFO [main] TestBase:84 - Load Web URL-> 'https://www.freecrm.com/' Successful
+ 2018-09-26 20:15:47,214  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:15:47,215  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:15:47,216  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:15:47,220  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:15:47,221  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:16:00,412  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:16:00,413  INFO [main] TestBase:43 - Login sucessful
+ 2018-09-26 20:16:00,458  INFO [main] TestBase:51 - Switched to mainpanel frame
+ 2018-09-26 20:16:03,596  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:16:03,597  INFO [main] TestBase:79 - Verified Contacts Link on Home page
+ 2018-09-26 20:16:05,890  INFO [main] TestBase:22 - Passed Test Screenshots taken sucessfully
+ 2018-09-26 20:16:06,776  INFO [main] TestBase:93 - Close driver sucessful
+ 2018-09-26 20:16:06,777  INFO [main] TestBase:93 - $$$$$$$$$$$$$$$$$$$$$ E N D - T E S T $$$$$$$$$$$$$$$$$$$$$$$$$
+ 2018-09-26 20:16:06,779  INFO [main] TestBase:89 - $$$$$$$$$$$$$$$$$$$$$ S T A R T - T E S T $$$$$$$$$$$$$$$$$$$$$$$$$
+ 2018-09-26 20:16:09,102  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:16:09,102  INFO [main] TestBase:69 - Intialized Webdriver or Browser
+ 2018-09-26 20:16:10,229  INFO [main] TestBase:72 - Maximized Browser Window
+ 2018-09-26 20:16:10,259  INFO [main] TestBase:75 - Deleted All Browser Cookies
+ 2018-09-26 20:16:10,261  INFO [main] TestBase:78 - Page load timeout applied on driver for 30Sec
+ 2018-09-26 20:16:10,265  INFO [main] TestBase:81 - Implicit wait applied on driver for 20Sec
+ 2018-09-26 20:16:17,643  INFO [main] TestBase:84 - Load Web URL-> 'https://www.freecrm.com/' Successful
+ 2018-09-26 20:16:17,644  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:16:17,645  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:16:17,646  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:16:17,647  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:16:17,648  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:16:29,414  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:16:29,415  INFO [main] TestBase:43 - Login sucessful
+ 2018-09-26 20:16:29,465  INFO [main] TestBase:51 - Switched to mainpanel frame
+ 2018-09-26 20:16:31,268  INFO [main] TestBase:44 - Initialized & loaded the properties file
+ 2018-09-26 20:16:31,269  INFO [main] TestBase:87 - Verified Tasks Link on Home page
+ 2018-09-26 20:16:33,686  INFO [main] TestBase:22 - Passed Test Screenshots taken sucessfully
+ 2018-09-26 20:16:34,543  INFO [main] TestBase:93 - Close driver sucessful
+ 2018-09-26 20:16:34,544  INFO [main] TestBase:93 - $$$$$$$$$$$$$$$$$$$$$ E N D - T E S T $$$$$$$$$$$$$$$$$$$$$$$$$
+ 2018-09-26 20:16:35,047 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+ 2018-09-26 20:16:35,048 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+ 2018-09-26 20:16:35,050 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2018-09-26 20:16:35,051 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2018-09-26 20:16:35,052 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/bbdnet10082/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2018-09-26 20:16:35,352 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+ 2018-09-26 20:16:35,353 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+ 2018-09-26 20:16:35,354 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2018-09-26 20:16:35,354 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2018-09-26 20:16:35,354 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/bbdnet10082/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 

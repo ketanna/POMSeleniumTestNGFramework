@@ -20,30 +20,37 @@ public class LoginPageTest extends TestBase{
 	
 	@BeforeMethod
 	public void setUp(){
+		logInfoStartTest();
 		initialization();
 		loginPage = new LoginPage();
+		log.info("Landed on to Login page verified");
 	}
 	
 	@Test(priority=1)
 	public void loginPageTitleTest(){
 		String title = loginPage.validateLoginPageTitle();
 		Assert.assertEquals(title, "#1 Free CRM software in the cloud for sales and service");
+		log.info("Verified Login Page Title");
 	}
 	
 	@Test(priority=2)
 	public void loginPageLogoTest(){
 		boolean logo = loginPage.validateCRMLogoImage();
 		Assert.assertTrue(logo);
+		log.info("Verified Login page Logo");
 	}
 	
 	@Test(priority=3)
 	public void loginTest() throws InterruptedException {
 		homePage = loginPage.loginin(prop.getProperty("Username"), prop.getProperty("Password"));
+		log.info("Verified Login has been sucessful");
 	}
 	
 	@AfterMethod
 	public void tearDown(){
 		driver.quit();
+		log.info("Close Driver Successful");
+		logInfoEndTest();
 	}
 	
 	

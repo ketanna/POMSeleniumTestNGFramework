@@ -6,7 +6,9 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-public class ITestListenerTest implements ITestListener{
+import com.crm.qa.base.TestBase;
+
+public class ITestListenerTest extends TestBase implements ITestListener{
 
 	public void onTestStart(ITestResult result) {
 		// TODO Auto-generated method stub
@@ -17,16 +19,20 @@ public class ITestListenerTest implements ITestListener{
 			try {
 				TestUtil.takeFullPageScreenshot(result.getName());
 				//TestUtil.passedTestScreenShot(result.getName());
+				log.info("Passed Test Screenshots Taken Successfully");
 			} catch (IOException e) {
 				e.printStackTrace();
+				log.error("Unable to take Screenshots");
 			}
 		} 
 
 	public void onTestFailure(ITestResult result) {
 		try {
 			TestUtil.failureTestScreenShot(result.getName());
+			log.info("Failed Test Screenshots Taken Successfully");
 		} catch (IOException e) {
 			e.printStackTrace();
+			log.error("Unable to take Screenshots");
 		}
 	}
 

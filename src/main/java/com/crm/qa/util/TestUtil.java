@@ -48,6 +48,7 @@ public class TestUtil extends TestBase {
 	
 	public void switchToFrame(){
 		driver.switchTo().frame("mainpanel");
+		log.info("Switched to mainpanel frame");
 	}
 	
 //********** Data driven approach using Excel POI API*********************

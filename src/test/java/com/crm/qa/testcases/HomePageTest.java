@@ -32,6 +32,7 @@ public class HomePageTest extends TestBase{
 	
 	@BeforeMethod
 	public void setUp() throws InterruptedException{
+		logInfoStartTest();
 		initialization();
 		loginPage = new LoginPage();
 		testUtil = new TestUtil();
@@ -39,12 +40,14 @@ public class HomePageTest extends TestBase{
 		contactsPage = new ContactsPage();
 		tasksPage = new TasksPage();
 		homePage = loginPage.loginin(prop.getProperty("Username"), prop.getProperty("Password"));
+		log.info("Login Successful");
 	}
 		
 	@Test(priority=1)
 	public void verifyHomePageTitleTest(){
 		String homePageTitle = homePage.verifyHomePageTitle();
 		Assert.assertEquals(homePageTitle, "CRMPRO", "Home Page Title Not Matched");
+		log.info("Verified Home Page Title");
 	}
 	
 	//@Test(priority=2)
@@ -52,24 +55,28 @@ public class HomePageTest extends TestBase{
 		testUtil.switchToFrame();
 		Thread.sleep(2000);
 		Assert.assertTrue(homePage.verifyLoggedInUser());
+		log.info("Logged in user verified on Home page");
 	}
 	
 	@Test(priority=3)
 	public void verifyHomePageLogoTest(){
 		testUtil.switchToFrame();
 		Assert.assertTrue(homePage.verifyHomePageLogo());
+		log.info("Verified Home Page Logo");
 	}
 	
 	@Test(priority=4)
 	public void verifyDealsLinkTest(){
 		testUtil.switchToFrame();
 		dealsPage = homePage.verifyDealsLink();
+		log.info("Verifed Deals Link on Home page");
 	}
 	
 	@Test(priority=5)
 	public void verifyContactsLinkTest() throws InterruptedException{
 		testUtil.switchToFrame();
 		contactsPage = homePage.verifyContactsLink();
+		log.info("Verified Contacts Link on Home page");
 		//contactsPage.selectContactsByName("Aaaron Jacob");
 	}
 	
@@ -77,11 +84,14 @@ public class HomePageTest extends TestBase{
 	public void verifyTasksLinkTest(){
 		testUtil.switchToFrame();
 		tasksPage = homePage.verifyTasksLink();
+		log.info("Verified Tasks Link on Home page");
 	}
 	
 	@AfterMethod
 	public void tearDown(){
 		driver.quit();
+		log.info("Close Driver Successful");
+		logInfoEndTest();
 	}
 
 
