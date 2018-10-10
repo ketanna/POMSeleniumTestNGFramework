@@ -50,7 +50,7 @@ public class HomePageTest extends TestBase{
 		log.info("Verified Home Page Title");
 	}
 	
-	//@Test(priority=2)
+	@Test(priority=2)
 	public void verifyLoggedInUserTest() throws InterruptedException{
 		testUtil.switchToFrame();
 		Thread.sleep(2000);

@@ -3,17 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [FREE CRM Application Test Automation Test Suite]">
   <listeners>
     <listener class-name="com.crm.qa.util.ITestListenerTest"/>
+    <listener class-name="com.crm.qa.util.RetryTransformer"/>
     <listener class-name="com.crm.qa.ExtentReportListener.ExtentReporterNG"/>
   </listeners>
-  <test thread-count="5" name="FreeCRM ContactsPage TestCases(failed)">
+  <test thread-count="5" name="FreeCRM All TestCases(failed)">
     <classes>
-      <class name="com.crm.qa.testcases.ContactsPageTest">
+      <class name="com.crm.qa.testcases.LoginPageTest">
         <methods>
-          <include name="createNewContactFromExcelDataTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="loginPageLogoTest"/>
         </methods>
-      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
     </classes>
-  </test> <!-- FreeCRM ContactsPage TestCases(failed) -->
+  </test> <!-- FreeCRM All TestCases(failed) -->
 </suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->

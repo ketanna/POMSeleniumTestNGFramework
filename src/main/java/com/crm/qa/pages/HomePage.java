@@ -12,8 +12,9 @@ public class HomePage extends TestBase{
 	@FindBy (xpath = "//td[@class='logo_text']" )
 	WebElement logoImage;
 	
-	@FindBy (xpath = "/html/body/table[1]/tbody/tr[1]/td/table/tbody/tr/td[1]/font")
-	//@FindBy (xpath = "//font[contains(.,'User: Naveen')]")
+	@FindBy (xpath = "html/body/table[1]/tbody/tr[1]/td/table/tbody/tr/td[1]")
+	//html/body/table[1]/tbody/tr[1]/td/table/tbody/tr/td[1]/font
+	//@FindBy (xpath = "//font[contains(.,'   User: Ketan Naik  ')]")
 	WebElement loggedUserName;
 	
 	@FindBy (xpath = "//a[contains(text(),'Deals')]")

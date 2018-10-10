@@ -48,19 +48,6 @@ public class ContactsPageTest extends TestBase{
 		log.info("Verified Contact Label");
 	}
 	
-	@Test(priority=2)
-	public void selectSingleContactByNameTest() throws InterruptedException{
-		contactsPage.selectContactsByName("Akshay Kumar");	
-		log.info("Verified Select Single Contact By Name");
-	}
-	
-	@Test(priority=3)
-	public void selectMultipleContactsByNameTest() throws InterruptedException{
-		contactsPage.selectContactsByName("Aman sang");	
-		contactsPage.selectContactsByName("Agnimitra Paul");	
-		log.info("Verified Select Multiple Contacts By Name");
-	}
-	
 	@DataProvider
 	public Object[][] getCreateNewContactTestData(){
 		Object data [][] = TestUtil.getTestData(sheetName);
@@ -69,13 +56,25 @@ public class ContactsPageTest extends TestBase{
 		
 	}
 	
-	@Test(dataProvider="getCreateNewContactTestData", priority=4)
+	@Test(dataProvider="getCreateNewContactTestData", priority=2)
 	public void createNewContactFromExcelDataTest(String title, String firstname, String lastname, String company){
 		homePage.clickOnNewContactLink();
 		contactsPage.createNewContact(title, firstname, lastname, company);
 		log.info("New Contact has been created via Contacts Page");
 	}
 	
+	@Test(priority=3)
+	public void selectSingleContactByNameTest() throws InterruptedException{
+		contactsPage.selectContactsByName("Anand Das");	
+		log.info("Verified Select Single Contact By Name");
+	}
+	
+	@Test(priority=4)
+	public void selectMultipleContactsByNameTest() throws InterruptedException{
+		contactsPage.selectContactsByName("Anand Das");	
+		contactsPage.selectContactsByName("Ketan Naik");	
+		log.info("Verified Select Multiple Contacts By Name");
+	}
 	
 	/*@Test(priority=5)
 	public void validateCreateNewContactTest(){
